@@ -8,7 +8,7 @@ import { HighlightDirective } from 'src/app/shared/highlight.directive';
   // imports: [SharedModule], //necessari per afegir el mòdul que conté la directiva que subratlla (quan no era standalone)
   selector: 'app-details',
   templateUrl: './details.component.html',
-  styleUrls: ['./details.component.css'],
+  styleUrls: ['./details.component.css']
 })
 export class DetailsComponent {
   constructor(private analyticsService: AnalyticsService) {}
